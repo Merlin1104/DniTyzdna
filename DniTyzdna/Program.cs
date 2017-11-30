@@ -10,6 +10,22 @@ namespace DniTyzdna
     {
         static void Main(string[] args)
         {
+            
+            
+            
+
+
+            DniTyzdna dni = new DniTyzdna();
+            dni.VypisDenTyzdna("2");
+            dni.VypisDenTyzdna("3", true);
+            
+            Console.ReadKey();
+
+
+
+
+
         }
+        
     }
 }
